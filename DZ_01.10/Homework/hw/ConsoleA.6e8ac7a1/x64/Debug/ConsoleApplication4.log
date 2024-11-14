@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\bala0\Desktop\homework\dz\main.cpp(31,16): error C2100: you cannot dereference an operand of type 'T1'
+C:\Users\bala0\Desktop\homework\dz\main.cpp(31,16): error C2100:         with
+C:\Users\bala0\Desktop\homework\dz\main.cpp(31,16): error C2100:         [
+C:\Users\bala0\Desktop\homework\dz\main.cpp(31,16): error C2100:             T1=int
+C:\Users\bala0\Desktop\homework\dz\main.cpp(31,16): error C2100:         ]
+  C:\Users\bala0\Desktop\homework\dz\main.cpp(31,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\bala0\Desktop\homework\dz\main.cpp(105,23):
+  	see reference to class template instantiation 'Base<int,double>' being compiled
+  	C:\Users\bala0\Desktop\homework\dz\main.cpp(29,14):
+  	while compiling class template member function 'Base<int,double>::~Base(void)'
+  		C:\Users\bala0\Desktop\homework\dz\main.cpp(105,27):
+  		see the first reference to 'Base<int,double>::~Base' in 'main'
+  
+C:\Users\bala0\Desktop\homework\dz\main.cpp(31,9): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\bala0\Desktop\homework\dz\main.cpp(32,16): error C2100: you cannot dereference an operand of type 'T2'
+C:\Users\bala0\Desktop\homework\dz\main.cpp(32,16): error C2100:         with
+C:\Users\bala0\Desktop\homework\dz\main.cpp(32,16): error C2100:         [
+C:\Users\bala0\Desktop\homework\dz\main.cpp(32,16): error C2100:             T2=double
+C:\Users\bala0\Desktop\homework\dz\main.cpp(32,16): error C2100:         ]
+C:\Users\bala0\Desktop\homework\dz\main.cpp(32,9): error C2541: 'delete': cannot delete objects that are not pointers
